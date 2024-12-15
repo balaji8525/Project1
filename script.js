@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
  
           
             // Prepare the email intent
-            const recipient = "recipient@example.com"; // Replace with your email address
+            const recipient = "rillixproduction@gmail.com"; // Replace with your email address
             const subject = encodeURIComponent("New Contact Form Submission");
             const body = encodeURIComponent(
                 `Name: ${name}\nPhone: ${phone}\n\n Budget:\n${budget}\n\n Email: ${email}\n\n link : ${link}\n\n Services: ${servicesText}\n\n Message: ${message}`
