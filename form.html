@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Submission</title>
+</head>
+<body>
+<h2>Contact Form</h2>
+<form id="contactForm">
+<!-- Name Field -->
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+<!-- Phone Number Field -->
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+<!-- Message Field -->
+<label for="message">Message:</label><br>
+<textarea id="message" name="message" placeholder="Your message here..." rows="4" required></textarea><br><br>
+<!-- Checkbox Input -->
+<input type="checkbox" id="subscribe" name="subscribe" value="Subscribed">
+<label for="subscribe">Subscribe to Newsletter</label><br><br>
+<!-- Submit Button -->
+<button type="submit">Submit</button>
+</form>
+ 
+    <!-- Link to external JS file -->
+<script src="script.js"></script>
+</body>
